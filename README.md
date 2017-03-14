@@ -2,22 +2,7 @@
 
 Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez].
 
-## Example app
-
-Simple Scala [Akka http][akka-http] JSON web service that replies some text and current date/time.
-
-```bash
-ECHOWS=localhost:7777/\?name=Oto
-curl $ECHOWS
-```
-
-"pure" jar size
-```bash
-ls -lh target/**/echo.jar
-# ~ 23M
-```
-
-## General tips
+## 10 general rules
 
 1. Few layers.
 2. Cleanup whenever possible (after each layer).
@@ -30,6 +15,19 @@ ls -lh target/**/echo.jar
 9. THINK & inspect what you install.
 10. test & measure before you optimise.
 
+## Example app
+
+Simple Scala [Akka http][akka-http] JSON web service that replies some text and current date/time.
+
+```bash
+curl http://localhost:7777/\?name=Oto
+```
+
+Fat-jar size is around 23M.
+```bash
+ls -lh target/**/echo.jar
+# ~ 23M
+```
 
 ## Other
 
@@ -38,3 +36,4 @@ ls -lh target/**/echo.jar
 [otobrglez]: https://github.com/otobrglez
 [docker-meetup]: https://www.meetup.com/Docker-Ljubljana/events/237617613/
 [alpine]: https://hub.docker.com/_/alpine/
+[akka-http]: http://doc.akka.io/docs/akka-http/current/scala.html
