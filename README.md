@@ -1,11 +1,15 @@
 # Slim Docker Images
 
-Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez].
+Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez], March 2017.
 
-## 10 general rules
+Repository comes with example Scala app and bunch of Dockerfiles where each of the tips is implemented and demonstrated.
+
+> Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would abiously be much smaller.
+
+## 10 general tips
 
 1. Few layers.
-2. Cleanup whenever possible (after each layer).
+2. Cleanup whenever possible
 3. Lighter base images ([Alpine Linux][alpine], `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
