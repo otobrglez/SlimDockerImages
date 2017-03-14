@@ -1,6 +1,6 @@
 # Slim Docker Images
 
-Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez]
+Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez].
 
 ## Example app
 
