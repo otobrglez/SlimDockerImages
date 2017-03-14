@@ -6,9 +6,9 @@ Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] 
 
 1. Few layers.
 2. Cleanup whenever possible (after each layer).
-3. Lighter base images ([Alpine Linux][alpine], `:slim` or `onbuild`) - do you need Ubuntu?
+3. Lighter base images ([Alpine Linux][alpine], `slim` or `onbuild`)
 4. Less "general" images.
-5. Split images (one for build, one for test, one for run).
+5. Split images (one for build, one for test, one for run?).
 6. Split responsibility (SRP) and KISS.
 7. `.dockerignore`.
 8. `copy` & extract from host to `image`.
