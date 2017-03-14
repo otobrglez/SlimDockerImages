@@ -17,7 +17,7 @@ Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] 
 
 ## Example app
 
-Simple Scala [Akka http][akka-http] JSON web service that replies some text and current date/time.
+Simple Scala [Akka HTTP][akka-http] JSON web service that replies some text and current date/time. Dependencies: [Scala], [SBT], [Java 8][java].
 
 ```bash
 curl http://localhost:7777/\?name=Oto
@@ -37,3 +37,6 @@ ls -lh target/**/echo.jar
 [docker-meetup]: https://www.meetup.com/Docker-Ljubljana/events/237617613/
 [alpine]: https://hub.docker.com/_/alpine/
 [akka-http]: http://doc.akka.io/docs/akka-http/current/scala.html
+[java]: https://www.java.com/
+[scala]: https://www.scala-lang.org/
+[sbt]: http://www.scala-sbt.org/
