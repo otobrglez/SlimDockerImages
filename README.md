@@ -9,7 +9,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 ## 10 general tips
 
 1. Few layers.
-2. Cleanup whenever possible. (Docs, Source code, Tests)
+2. Cleanup whenever, whatever possible. (docs, source code, tests, PM cache)
 3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox], `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
