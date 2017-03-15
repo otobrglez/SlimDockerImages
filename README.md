@@ -13,7 +13,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox], `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
-6. Split responsibility ([SRP][srp]) and [KISS][kiss]).
+6. Split responsibility ([SRP][srp]) and [KISS][kiss].
 7. `.dockerignore`.
 8. `copy` & extract from host to `image`.
 9. THINK & inspect what you install.
