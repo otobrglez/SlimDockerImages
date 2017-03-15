@@ -10,7 +10,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 
 1. Few layers.
 2. Cleanup whenever possible
-3. Lighter base images ([Alpine Linux][alpine], `slim` or `onbuild`)
+3. Lighter base images ([Alpine Linux][alpine], [][] `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
 6. Split responsibility (SRP) and KISS.
@@ -21,7 +21,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 
 ## Example app
 
-Simple Scala [Akka HTTP][akka-http] JSON web service that replies some text and current date/time. Dependencies: [Scala], [SBT], [Java 8][java].
+Simple [Akka HTTP][akka-http] JSON web service that replies with some text and current date/time. Dependencies: [Scala], [SBT], [Java 8][java].
 
 ```bash
 curl http://localhost:7777/\?name=Oto
@@ -44,3 +44,4 @@ ls -lh target/**/echo.jar
 [java]: https://www.java.com/
 [scala]: https://www.scala-lang.org/
 [sbt]: http://www.scala-sbt.org/
+[busybox]: https://hub.docker.com/_/busybox/
