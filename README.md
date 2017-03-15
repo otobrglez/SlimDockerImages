@@ -4,7 +4,7 @@ Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] 
 
 Repository comes with example Scala app and bunch of Dockerfiles where each of the tips is implemented and demonstrated.
 
-> Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would abiously be much smaller.
+> Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would obviously be much smaller.
 
 ## 10 general tips
 
@@ -18,6 +18,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 8. `copy` & extract from host to `image`.
 9. THINK & inspect what you install.
 10. test & measure before you optimise.
+11. Do not build SW in the container.
 
 ## Example app
 
@@ -35,7 +36,8 @@ ls -lh target/**/echo.jar
 
 ## Other
 
-- Inspect with (MicroBadger)[https://microbadger.com]
+- Inspect with [MicroBadger](https://microbadger.com)
+- Try [Docker Slim](https://github.com/docker-slim/docker-slim)
 
 ## Credits
 
