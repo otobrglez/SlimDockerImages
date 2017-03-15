@@ -10,7 +10,7 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 
 1. Few layers.
 2. Cleanup whenever possible
-3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox] `slim` or `onbuild`)
+3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox], `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
 6. Split responsibility ([SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle)) and [KISS](https://en.wikipedia.org/wiki/KISS_principle).
@@ -36,6 +36,11 @@ ls -lh target/**/echo.jar
 ## Other
 
 - Inspect with (MicroBadger)[https://microbadger.com]
+
+## Credits
+
+- [Oto Brglez](https://github.com/otobrglez)
+- [Jožko Škrablin](https://github.com/jozko)
 
 [otobrglez]: https://github.com/otobrglez
 [docker-meetup]: https://www.meetup.com/Docker-Ljubljana/events/237617613/
