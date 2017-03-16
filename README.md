@@ -4,23 +4,23 @@ Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] 
 
 ![Slides](./slides.png)
 
-
 Repository comes with example Scala app and bunch of Dockerfiles where each of the tips is implemented and demonstrated.
 
-> Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would abiously be much smaller.
+> Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would obviously be much smaller.
 
 ## 10 general tips
 
 1. Few layers.
-2. Cleanup whenever possible
+2. Cleanup whenever, whatever possible. (docs, source code, tests, PM cache)
 3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox], `slim` or `onbuild`)
 4. Less "general" images.
 5. Split images (one for build, one for test, one for run?).
-6. Split responsibility ([SRP][srp]) and [KISS][kiss]).
+6. Split responsibility ([SRP][srp]) and [KISS][kiss].
 7. `.dockerignore`.
 8. `copy` & extract from host to `image`.
 9. THINK & inspect what you install.
 10. test & measure before you optimise.
+11. Do not build SW in the container.
 
 ## Example app
 
@@ -38,7 +38,8 @@ ls -lh target/**/echo.jar
 
 ## Other
 
-- Inspect with (MicroBadger)[https://microbadger.com]
+- Inspect with [MicroBadger](https://microbadger.com)
+- Try [Docker Slim](https://github.com/docker-slim/docker-slim)
 
 ## Credits
 
@@ -56,3 +57,4 @@ ls -lh target/**/echo.jar
 [srp]: https://en.wikipedia.org/wiki/Single_responsibility_principle
 [kiss]: https://en.wikipedia.org/wiki/KISS_principle
 [slides]: https://docs.google.com/presentation/d/1K0DHW31W5cj1d9hxzAn0sDSKntGpDVdaUzUy1HKZ1XU/edit?usp=sharing
+
