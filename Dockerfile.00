@@ -46,5 +46,3 @@ RUN sbt assembly
 EXPOSE 7777
 
 CMD /usr/bin/supervisord -c /etc/echo-supervisord.conf
-
-# ENTRYPOINT ["java", "-Dconfig.resource=docker.conf", "-jar", "/src/app/target/scala-2.12/echo.jar"]
