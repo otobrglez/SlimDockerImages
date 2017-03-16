@@ -1,8 +1,6 @@
-# Slim Docker Images
+[![Slides](./slides.png)][slides]
 
-Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez], March 2017.
-
-![Slides](./slides.png)
+[Slides][slides], resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez], March 2017.
 
 Repository comes with example Scala app and bunch of Dockerfiles where each of the tips is implemented and demonstrated.
 
