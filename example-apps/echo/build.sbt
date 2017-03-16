@@ -17,7 +17,10 @@ libraryDependencies ++= Seq(
   "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0",
   "ch.qos.logback" % "logback-classic" % "1.1.7",
 
-  "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.4"
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.4",
+  "com.typesafe.akka" %% "akka-http-testkit" % "10.0.4",
+
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
 fork in run := true

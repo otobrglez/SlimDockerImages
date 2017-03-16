@@ -2,6 +2,9 @@
 
 Slides, resources and examples for [1st Docker Ljubljana meetup][docker-meetup] by [Oto Brglez][otobrglez], March 2017.
 
+![Slides](./slides.png)
+
+
 Repository comes with example Scala app and bunch of Dockerfiles where each of the tips is implemented and demonstrated.
 
 > Why Scala? Example needed to be complex enough and big enough to matter. If you write apps in C/C++/Go or some other low level compiled language where result is single binary your images would abiously be much smaller.
@@ -52,3 +55,4 @@ ls -lh target/**/echo.jar
 [busybox]: https://hub.docker.com/_/busybox/
 [srp]: https://en.wikipedia.org/wiki/Single_responsibility_principle
 [kiss]: https://en.wikipedia.org/wiki/KISS_principle
+[slides]: https://docs.google.com/presentation/d/1K0DHW31W5cj1d9hxzAn0sDSKntGpDVdaUzUy1HKZ1XU/edit?usp=sharing

@@ -11,7 +11,7 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.model.DateTime
 import spray.json._
 
-sealed trait Service extends SprayJsonSupport with DefaultJsonProtocol {
+trait Service extends SprayJsonSupport with DefaultJsonProtocol {
   implicit val system: ActorSystem
   implicit val executor: ExecutionContextExecutor
   implicit val materializer: ActorMaterializer
