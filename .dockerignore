@@ -1,0 +1,11 @@
+project/project
+project/target
+target
+
+example-apps/echo/project/project
+example-apps/echo/project/target
+example-apps/echo/target
+!example-apps/echo/target/scala-2.12/echo.jar
+
+docs/
+# pkg
