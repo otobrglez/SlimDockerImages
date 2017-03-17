@@ -8,12 +8,12 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 
 ## 10 general tips
 
-1. [SRP][srp] and [KISS][hiss]
-2. Few layers
-3. Cleanup
-4. copy & extract from host
-5. Less "general" images and lighter base images
-6. Split
+1. [SRP][srp] and [KISS][kiss] - [00](Dockerfile.00)
+2. Few layers - [01](Dockerfile.01)
+3. Cleanup - [02](Dockerfile.02)
+4. copy & extract from host - [03](Dockerfile.03)
+5. Less "general" images and lighter base images. [04](Dockerfile.04) + [05](Dockerfile.05)
+6. Split [06](Dockerfile.06)
 7. [.dockerignore](.dockerignore)
 8. THINK & inspect what you install
 9. test & measure before you optimise
