@@ -8,17 +8,17 @@ Repository comes with example Scala app and bunch of Dockerfiles where each of t
 
 ## 10 general tips
 
-1. Few layers.
-2. Cleanup whenever, whatever possible. (docs, source code, tests, PM cache)
-3. Lighter base images ([Alpine Linux][alpine], [BusyBox][busybox], `slim` or `onbuild`)
-4. Less "general" images.
-5. Split images (one for build, one for test, one for run?).
-6. Split responsibility ([SRP][srp]) and [KISS][kiss].
-7. `.dockerignore`.
-8. `copy` & extract from host to `image`.
-9. THINK & inspect what you install.
-10. test & measure before you optimise.
-11. Do not build SW in the container.
+1. [SRP][srp] and [KISS][hiss]
+2. Few layers
+3. Cleanup
+4. copy & extract from host
+5. Less "general" images and lighter base images
+6. Split
+7. [.dockerignore](.dockerignore)
+8. THINK & inspect what you install
+9. test & measure before you optimise
+10. Do not build SW in the container
+
 
 ## Example app
 
