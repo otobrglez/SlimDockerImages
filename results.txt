@@ -1,0 +1,9 @@
+REPOSITORY     TAG     IMAGE ID            SIZE
+otobrglez/sdi  00      de4c4b93f1a4        1.92 GB   <- original
+otobrglez/sdi  01      4c5da3b2c443        1.8 GB    <- SRP
+otobrglez/sdi  02      c71040348874        1.89 GB   <- less layers
+otobrglez/sdi  03      630b6c70fd9f        966 MB    <- cleanup *everything*
+otobrglez/sdi  04      adb99a9f6a84        1.12 GB   <- host download
+otobrglez/sdi  05      f723c6db8d57        362 MB    <- alpine base + special image
+otobrglez/sdi  06      b5cde6d3c461        106 MB    <- NO *building*
+otobrglez/sdi  latest  9b822d2ebeeb        579 MB
